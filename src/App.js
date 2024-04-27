@@ -8,7 +8,7 @@ function App() {
   return (
 
     <div className="App">
-      <h1>Stardew Valley</h1>
+      <h1>Stardew Memory</h1>
       <Cards />
     </div>
   );
