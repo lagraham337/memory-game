@@ -42,6 +42,8 @@ export default function Cards() {
         { id: 17, name: 'Shane', status: '', img: '/images/Shane.png'}
     ].sort(() => Math.random() - .5))
 
+
+
     const [previousCardState, setPreviousCardState] = useState(-1)
     const previousIndex = useRef(-1)
 
