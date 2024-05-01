@@ -9,6 +9,11 @@ function App() {
 
     <div className="App">
       <h1>Stardew Memory</h1>
+
+        <button>New Game</button>
+
+      <br></br>
+      <br></br>
       <Cards />
     </div>
   );

@@ -20,7 +20,6 @@ export default function Cards() {
         { id: 6, name: 'Sandy', status: '', img: '/images/Sandy.png'},
         { id: 7, name: 'Wizard', status: '', img: '/images/Wizard.png'},
         { id: 7, name: 'Wizard', status: '', img: '/images/Wizard.png'},
-
         { id: 8, name: 'Abigail', status: '', img: '/images/Abigail.png'},
         { id: 8, name: 'Abigail', status: '', img: '/images/Abigail.png'},
         { id: 9, name: 'Alex', status: '', img: '/images/Alex.png'},
@@ -41,8 +40,6 @@ export default function Cards() {
         { id: 16, name: 'Sebastian', status: '', img: '/images/Sebastian.png'},
         { id: 17, name: 'Shane', status: '', img: '/images/Shane.png'},
         { id: 17, name: 'Shane', status: '', img: '/images/Shane.png'}
-
-
     ].sort(() => Math.random() - .5))
 
     const [previousCardState, setPreviousCardState] = useState(-1)
@@ -84,7 +81,6 @@ export default function Cards() {
             alert('card currently selected')
         }
     }
-
 
     return (
         <div className="container">
